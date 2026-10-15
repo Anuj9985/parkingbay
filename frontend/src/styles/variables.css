@@ -1,0 +1,37 @@
+:root {
+  /* Brand Primary Colors */
+  --color-primary-yellow: #f5b014;
+  --color-primary-yellow-hover: #e5a009;
+  --color-primary-yellow-light: #fffbeb;
+  
+  /* Sidebar & Dark Theme Colors */
+  --color-sidebar-bg: #0f172a;
+  --color-sidebar-item-hover: #1e293b;
+  --color-sidebar-text: #94a3b8;
+  --color-sidebar-text-active: #0f172a;
+
+  /* Card & Surface Colors */
+  --color-bg-main: #f8fafc;
+  --color-card-bg: #ffffff;
+  --color-border: #e2e8f0;
+  
+  /* Status Colors */
+  --color-status-available: #10b981;
+  --color-status-available-bg: #ecfdf5;
+  --color-status-limited: #f59e0b;
+  --color-status-limited-bg: #fffbeb;
+  --color-status-full: #ef4444;
+  --color-status-full-bg: #fef2f2;
+  --color-status-ev: #0284c7;
+  --color-status-ev-bg: #f0f9ff;
+
+  /* Typography Colors */
+  --color-text-main: #0f172a;
+  --color-text-muted: #64748b;
+  --color-text-subtle: #94a3b8;
+
+  /* Shadow Tokens */
+  --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-floating: 0 10px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-pin: 0 4px 8px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,35 @@
+/* Responsive Utilities */
+@media (max-width: 1024px) {
+  .app-split-container {
+    flex-direction: column;
+  }
+
+  .parking-list-panel {
+    max-height: 480px;
+    width: 100% !important;
+  }
+
+  .map-panel {
+    height: 420px !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    z-index: 50;
+    flex-direction: row;
+    padding: 0.5rem;
+  }
+
+  .hero-header {
+    padding-top: 1.5rem;
+    padding-bottom: 3.5rem;
+  }
+}

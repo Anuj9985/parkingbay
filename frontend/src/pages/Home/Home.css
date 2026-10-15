@@ -1,0 +1,23 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.home-split-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .home-split-layout {
+    grid-template-columns: 420px 1fr;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-split-layout {
+    grid-template-columns: 450px 1fr;
+  }
+}

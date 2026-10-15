@@ -1,0 +1,10 @@
+node_modules/
+uploads/*
+!uploads/.gitkeep
+logs/*
+!logs/.gitkeep
+.env
+.env.local
+.DS_Store
+coverage/
+dist/
